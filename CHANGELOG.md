@@ -1,5 +1,10 @@
 # What's new
 
+## 0.1.53 (November 2026)
+
+- **Favorite devices:** the devices you've chosen now sit in their own section at the top of the list.
+- **Your house settings:** the sensor you've picked is shown on its own at the top, with a Clear button to choose a different one.
+
 ## 0.1.41: first test release (November 2026)
 
 The first version for testers.
