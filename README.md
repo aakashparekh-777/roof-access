@@ -88,7 +88,7 @@ The full [privacy policy](PRIVACY.md) explains everything the app accesses and w
 2. In Roof Access, long-press an empty spot on the home screen and open **Settings → Home Assistant (unofficial)**.
 3. Enter your server address (for example `http://homeassistant.local:8123`) and paste the token.
    If you reach Home Assistant from outside your home, also add your **Away-from-home URL** (such as your Nabu Casa address).
-4. Pick your **Favourite devices**, then add their tiles to your home screen.
+4. Pick your **Favorite devices**, then add their tiles to your home screen.
 5. Optional: turn on **Show the house** and choose a style. In the same section, match the garage doors, front door,
    car and each window's light to your own devices.
 
