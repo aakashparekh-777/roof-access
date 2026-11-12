@@ -17,6 +17,8 @@ screen, and puts a picture of your house on the wallpaper that changes with what
   <img src="docs/screenshots/wallpaper.png" alt="The seasonal live wallpaper with your house on the hillside" width="540">
 </p>
 
+<p align="center">▶️ <a href="docs/visitor-demo.mp4"><b>Watch a visitor arrive at the house</b></a> (short video)</p>
+
 <p align="center">
   <img src="docs/screenshots/drawer.png" alt="The app drawer with search, tabs and recent apps" width="200">
   <img src="docs/screenshots/animations.png" alt="Colour and animations settings with a live preview" width="200">
