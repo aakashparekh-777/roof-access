@@ -1,5 +1,11 @@
 # What's new
 
+## 0.1.58 (November 2026)
+
+- **Car charging on the house:** while your car charges, the house now shows a green glow, a wall charger, energy flowing along the cable and a large pulsing bolt.
+- **Works with more cars:** charging is detected from the car's charging power (1 kW or more), and from statuses like IN_PROGRESS, so it works across carmakers.
+- **Smaller and faster:** the app download is much smaller and starts a little quicker.
+
 ## 0.1.53 (November 2026)
 
 - **Favorite devices:** the devices you've chosen now sit in their own section at the top of the list.
