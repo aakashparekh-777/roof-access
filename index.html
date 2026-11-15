@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roof Access</title>
+  <!--
+    Home Assistant reads these lines when you sign in from the Roof Access app: they're the only addresses it will
+    send the sign-in back to. The first is the app from Google Play, the second is the developer's test build.
+  -->
+  <link rel="redirect_uri" href="roofaccess://auth-callback">
+  <link rel="redirect_uri" href="roofaccess-dev://auth-callback">
+  <style>
+    :root { color-scheme: light dark; }
+    body { font: 17px/1.5 system-ui, sans-serif; max-width: 40rem; margin: 3rem auto; padding: 0 1rem; }
+    a { color: #c2410c; }
+  </style>
+</head>
+<body>
+  <h1>Roof Access</h1>
+  <p>An Android home screen with your Home Assistant built in.</p>
+  <p>If you've come here from your Home Assistant's sign-in page: this page is how Home Assistant checks that it's
+    really the Roof Access app asking you to sign in. Your sign-in goes only to your own Home Assistant and back to
+    the app on your phone.</p>
+  <p><a href="https://github.com/aakashparekh-777/roof-access">About Roof Access, privacy and help</a></p>
+  <p><small>Roof Access is unofficial and isn't affiliated with or endorsed by Home Assistant or the Open Home Foundation.</small></p>
+</body>
+</html>
