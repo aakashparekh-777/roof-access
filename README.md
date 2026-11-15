@@ -61,12 +61,13 @@ screen, and puts a picture of your house on the wallpaper that changes with what
 It's a fair question: a Home Assistant token gives access to your devices. Here's how Roof Access handles it, and how you
 can check for yourself.
 
-- **Your token stays on your phone.** It's kept in the app's private storage, is never included in backups, and is only
-  ever sent to the Home Assistant server you entered.
+- **You sign in on your own Home Assistant's login page.** Your password never passes through the app. Its access is
+  kept in the app's private storage, is never included in backups, and is only ever sent to your own server.
 - **No account, no ads, no analytics, no tracking.** The developer never receives any of your data.
 - **You can see every connection it makes.** The full list is short, and you can confirm it with a free firewall app.
   See [How to check what Roof Access connects to](VERIFY.md).
-- **You stay in control.** Delete the token in Home Assistant and the app is cut off instantly.
+- **You stay in control.** Sign out in the app, or remove its access under **Profile → Security** in Home Assistant,
+  and it's cut off instantly.
 - **Risky actions need your fingerprint.** Unlocking, opening the garage and disarming the alarm ask for it first.
 
 For extra peace of mind, you can give Roof Access its own Home Assistant user. See [Using a separate Home Assistant user](VERIFY.md#using-a-separate-home-assistant-user).
@@ -84,10 +85,12 @@ The full [privacy policy](PRIVACY.md) explains everything the app accesses and w
    Everything is optional and can be changed later.
 
 ### Connecting Home Assistant (optional)
-1. In Home Assistant, open **Profile → Security → Long-lived access tokens** and create a token.
-2. In Roof Access, long-press an empty spot on the home screen and open **Settings → Home Assistant (unofficial)**.
-3. Enter your server address (for example `http://homeassistant.local:8123`) and paste the token.
+1. In Roof Access, long-press an empty spot on the home screen and open **Settings → Home Assistant (unofficial)**.
+2. Tap **Find on this Wi-Fi** and pick your server, or type its address (for example `http://homeassistant.local:8123`).
+3. Tap **Sign in with Home Assistant** and log in on your Home Assistant's own login page. There's nothing to copy or paste,
+   and the app stays signed in until you sign out.
    If you reach Home Assistant from outside your home, also add your **Away-from-home URL** (such as your Nabu Casa address).
+   You can still paste a long-lived access token instead, if you prefer.
 4. Pick your **Favorite devices**, then add their tiles to your home screen.
 5. Optional: turn on **Show the house** and choose a style. In the same section, match the garage doors, front door,
    car and each window's light to your own devices.

@@ -43,8 +43,8 @@ use your devices but can't change Home Assistant's settings, and you can see and
 
 1. In Home Assistant, go to **Settings → People → Add person**.
 2. Give it a name such as "Roof Access", turn on **Allow person to login**, and leave **Administrator** off.
-3. Sign in to Home Assistant as that user, open **Profile → Security → Long-lived access tokens**, and create a token.
-4. Paste that token into Roof Access.
+3. In Roof Access, tap **Sign in with Home Assistant** and log in as that user. (Or sign in to Home Assistant as that
+   user, create a long-lived access token under **Profile → Security**, and paste it into Roof Access.)
 
 Roof Access only uses Home Assistant's standard features for reading device states and controlling devices, and it has
 been tested with a regular, non-admin user: device tiles and their controls, favorite devices, cameras and the house on
@@ -52,6 +52,6 @@ the wallpaper all work. If you ever find something that doesn't, please [let us 
 
 ## Turning it off
 
-- **To cut Roof Access off from Home Assistant:** delete its token in Home Assistant (**Profile → Security**). It stops working
-  instantly.
+- **To cut Roof Access off from Home Assistant:** tap **Sign out** in Roof Access, or remove its access under
+  **Profile → Security** in Home Assistant (its refresh token, or the long-lived token you made). It stops working instantly.
 - **To remove everything:** uninstall Roof Access. That deletes everything it stored on your phone.

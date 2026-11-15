@@ -1,5 +1,14 @@
 # What's new
 
+## 0.1.62 (November 2026)
+
+- **Sign in to Home Assistant:** log in on your Home Assistant's own page; nothing to copy or paste, and it stays signed in.
+- **Find Home Assistant automatically:** Roof Access can find your server on your Wi-Fi.
+- **Car battery:** tap the car outside your house to see its battery level for a few seconds.
+- **About page:** the version, what's new, and ways to get help, in Settings.
+- **What's new:** a short card on your home screen after an update.
+- **Accessibility:** shortcut buttons under the clock now tell TalkBack whether they're on, and settings fit tablets better.
+
 ## 0.1.58 (November 2026)
 
 - **Car charging on the house:** while your car charges, the house now shows a green glow, a wall charger, energy flowing along the cable and a large pulsing bolt.
