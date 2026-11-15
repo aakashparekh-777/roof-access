@@ -46,9 +46,9 @@ use your devices but can't change Home Assistant's settings, and you can see and
 3. Sign in to Home Assistant as that user, open **Profile → Security → Long-lived access tokens**, and create a token.
 4. Paste that token into Roof Access.
 
-Roof Access only uses Home Assistant's standard features for reading device states and controlling devices, so it is
-designed to work with a regular user. We haven't tested every feature this way yet, so if something is missing with a
-non-admin user, please [let us know](../../issues/new/choose).
+Roof Access only uses Home Assistant's standard features for reading device states and controlling devices, and it has
+been tested with a regular, non-admin user: device tiles and their controls, favorite devices, cameras and the house on
+the wallpaper all work. If you ever find something that doesn't, please [let us know](../../issues/new/choose).
 
 ## Turning it off
 
