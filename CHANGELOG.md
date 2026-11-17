@@ -1,5 +1,12 @@
 # What's new
 
+## 0.1.64 (November 2026)
+
+- **Fixed: disarming could fail.** Right after the fingerprint prompt, a Home Assistant command (such as Disarm) could be
+  lost. Commands now always get through, and if Home Assistant can't be reached you'll see a message instead of nothing.
+- **Easier to tap the car** outside your house.
+- **Keep the house clear:** icons and widgets stay off the house, so it's easy to see and tap (on by default).
+
 ## 0.1.62 (November 2026)
 
 - **Sign in to Home Assistant:** log in on your Home Assistant's own page; nothing to copy or paste, and it stays signed in.
