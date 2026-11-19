@@ -1,5 +1,15 @@
 # What's new
 
+## 0.1.69 (November 2026)
+
+- **Fixed: signed-in phones lost their connection.** After the phone slept, Home Assistant could reject the app until it
+  was signed in again, so commands such as Disarm failed, especially away from home. Signing in now stays working, and
+  the app reconnects by itself if Home Assistant ever rejects it.
+- **Alarm banner:** when your alarm goes off, a red banner with one big Disarm button appears on every home page.
+- **Quick Settings tiles:** put up to three Home Assistant devices in your phone's pull-down panel.
+- **Away-from-home address:** Roof Access offers to fill it in from Home Assistant (asking you first).
+- **Server addresses are locked once saved,** so they can't be changed by accident. Tap Change addresses to edit them.
+
 ## 0.1.64 (November 2026)
 
 - **Fixed: disarming could fail.** Right after the fingerprint prompt, a Home Assistant command (such as Disarm) could be
